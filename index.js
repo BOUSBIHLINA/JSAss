@@ -52,6 +52,9 @@ function playRound(playerSection, ComputerSection) {
         console.log("You lose! ",ComputerSection," beats ",playerSection)
         computerScore++
     }
+    else{
+        console.log("Please enter a correct value!")
+    }
 }
 
 function playGame(){
